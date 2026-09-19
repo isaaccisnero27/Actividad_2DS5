@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud Vital</title>
+            <style>
+                /*titulos con tiopografia diferente*/
+            h1, h2, h3 {
+                font-family: 'Georgia', serif;
+            }
+            nav { 
+            background: #2980b9; 
+            padding: 10px; 
+            text-align: center; 
+        }
+        /* Enlaces del menú en negrita */
+        nav a { 
+            font-weight: bold; 
+            padding: 8px 16px; 
+            background: #8AE1F1; 
+            text-decoration: none; 
+            color: #000; 
+            border-radius: 4px; 
+            margin: 0 5px; 
+        }
+
+                footer { 
+            background: #2c3e50; 
+            color: #fff; 
+            text-align: center; 
+            padding: 20px; 
+            margin-top: 40px; 
+        }
+        </style>
+</head>
+
+<body style ="background-color: #52D2EA; background-size: cover; background-attachment: fixed; background-position: center; font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333;"        >
+    <header  ><!-- Encabezado de la página -->
+        <h1 style ="text-align: center;">Salud Vital</h1>
+        
+    </header>
+    <!-- botones de navegacion para ir a las demas paginas -->
+    <nav style="display: flex; justify-content: center; gap: 10px;">
+        <a href="../HOME/HOME.html" style="padding: 8px 16px; background-color: #8AE1F1; text-decoration: none; color: rgb(0, 0, 0); border-radius: 4px;">Home</a>
+        <a href="../BLOG/BLOG.html" style="padding: 8px 16px; background-color: #8AE1F1; text-decoration: none; color: rgb(0, 0, 0); border-radius: 4px;">Blog</a>
+        <a href="../REGISTRO/REGISTRO.html" style="padding: 8px 16px; background-color: #8AE1F1; text-decoration: none; color: rgb(0, 0, 0); border-radius: 4px;">Registro</a>
+         <a href="../CONTACTO/CONTACTO.html" style="padding: 8px 16px; background-color: #8AE1F1; text-decoration: none; color: rgb(0, 0, 0); border-radius: 4px;">Contacto</a>
+    </nav>
+
+    <!-- Contenido principal (cada una de las noticias con su respectiva imagen y enlace para ver mas) -->
+    <section>
+
+        <ul style="border: 2px solid #65b4f5;background-color: #2980b9; padding: 10px; border-radius: 4px;">
+            <h2 style="color: #000000; text-align: center; font-size: 1.5em;">BLOG DE NOTICIAS</h2>
+
+            <article style="background-color: #68caff; background-color: #8AE1F1; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);">
+            <li><h3><strong>Por qué mancharte las manos con tierra tiene beneficios para tu salud</strong></h3>
+            <img src="imagenes/tierra.jpg" alt="Noticia 1" style=" width: 100%; max-width: 200px; height: auto; border-radius: 4px; display: block; margin: 10px 0;">
+                <p>El contacto directo con la tierra, la hierba, los árboles o el musgo aporta numerosos beneficios para la salud, tanto para nuestra piel como para el sistema inmunitario en general.<a style="font-weight: bold; color: #000000; text-decoration: underline;" href="https://www.bbc.com/mundo/articles/c9dr7emvd5ejo">ver más</a>.</p>
+            </li>
+        </article>
+        <p></p>
+
+        <article style="background-color: #68caff; background-color: #8AE1F1; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);">
+            <li><h3><strong>Cirugía de hernia ventral: ¿Qué es la técnica PeTEP?</strong></h3>
+            <img src="imagenes/cirguia.jpeg" alt="Noticia 1" style="width: 100%; max-width: 180px; height: auto; border-radius: 4px; display: block; margin: 10px 0;">
+                <p>El Dr. Carlos Rovira, cirujano general de Ciudad de la Salud, explicó que la técnica quirúrgica PeTEP permite reparar hernias ventrales mediante un abordaje mínimamente invasivo.<a style="font-weight: bold; color: #000000; text-decoration: underline;" href="https://www.bbc.com/mundo/articles/c9dr7emvd5ejo">ver más</a>.</p>
+
+            </li>
+
+        </article>
+        <p></p>
+
+        <article style="background-color: #68caff; background-color: #8AE1F1; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);">
+            <li><h3><strong>Minsa llama a la prevención para mantener disminución de casos de enfermedades de notificación obligatoria</strong></h3>
+            <img src="imagenes/Dengue.jpg" alt="Noticia 1" style="width: 100%; max-width: 200px; height: auto; border-radius: 4px; display: block; margin: 10px 0;">
+                <p>El Ministerio de Salud (Minsa), a través del Departamento de Epidemiología, 
+                    al informar las cifras correspondientes a la semana epidemiológica N.° 34, comprendida entre el 23 y el 29 de agosto de 2026, destacó que se registra una disminución en el número de casos de varios de estos eventos de notificación obligatoria a nivel nacional.
+                    <a style="font-weight: bold; color: #000000; text-decoration: underline;" href="https://lawebdelasalud.com/minsa-llama-a-la-prevencion-para-mantener-disminucion-de-casos-de-enfermedades-de-notificacion-obligatoria/">ver más</a>.</p>
+            </li>
+            </article>
+        </ul>
+    </section>
+
+    <footer>
+
+        Preguntas frecuentes | Términos y condiciones | Política de privacidad | Contáctenos
+        <!-- Dropdown para seleccionar el idioma de la página -->
+        <div style="display: inline-flex; align-items: center; gap: 8px;">
+        <label for="select-idioma" style="font-weight: bold; color: #1E293B; font-size: 14px;">
+            🌐 Idioma:
+        </label>
+        <select id="select-idioma" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #CBD5E1; background-color: #F8FAFC; color: #1E293B; font-size: 14px; cursor: pointer;">
+            <option value="es" selected>Español</option>
+            <option value="en">English</option>
+        </select>
+    </div>
+    </footer>
+</body>
+</html>
